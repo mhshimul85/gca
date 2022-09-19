@@ -1,0 +1,168 @@
+.navbar {
+  /* background-color: rgb(69, 218, 191); */
+  background-color: #fff;
+}
+
+/* .nav-item {
+  width: 20em !important;
+} */
+
+.nav-link {
+  /* font-size: 25px; */
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.carousel {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+/* .carousel-item {
+  /* max-height: 400px; *
+}
+ */
+
+.carousel-item > img {
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-indicators,
+.carousel-caption {
+  margin-bottom: 60px;
+}
+
+/* .sub-slide {
+  color: #fff;
+  height: 400px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(34, 158, 211, 0.618),
+      rgba(51, 140, 204, 0.395)
+    ),
+    url(../images/gcabd-1.jpg);
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+} */
+
+.sub-slide-about {
+  color: #fff;
+  height: 400px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(34, 158, 211, 0.618),
+      rgba(51, 140, 204, 0.395)
+    ),
+    url(../images/gcabd-about.jpg);
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.sub-slide h1 {
+  font-size: 70px;
+}
+
+.quote {
+  text-align: center;
+  min-height: 400px;
+  color: rgb(87, 181, 236);
+}
+
+.our-mission {
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  background-color: rgb(87, 181, 236);
+  padding: 40px;
+  /* min-height: 400px; */
+}
+
+.our-mission > .row > .card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.career-container {
+  min-height: 400px;
+  color: rgb(87, 181, 236);
+}
+
+.start-container {
+  padding: 30px;
+  text-indent: 50px;
+  font-size: larger;
+}
+
+.event-container {
+  padding: 20px 0;
+  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
+}
+
+.event-container > .card {
+  margin: 10px 0;
+}
+
+.contact {
+  line-height: 10px;
+  background-color: rgb(87, 181, 236);
+  min-height: 400px;
+  text-align: center;
+  color: #fff;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  font-size: x-large;
+}
+
+.contact-page {
+  line-height: 10px;
+  min-height: 400px;
+  text-align: center;
+  color: rgb(87, 181, 236);
+  font-size: x-large;
+}
+
+.contact-page a {
+  color: rgb(87, 181, 236);
+  text-decoration: none;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 20px;
+  line-height: 20px;
+  background-color: rgb(87, 181, 236);
+  min-height: 100px;
+  /* position: relative; */
+}
+
+.footer > .text > p {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+@media screen and (max-width: 1100px) {
+  .carousel-item > img {
+    width: 100%;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .our-mission {
+    clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
+  }
+
+  .carousel-item > img {
+    width: 100%;
+    height: 400px;
+  }
+}
